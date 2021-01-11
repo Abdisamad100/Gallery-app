@@ -14,10 +14,12 @@
       </span>
     </div>
     </div>
-    <div class="card-columns">
+    <div class="row">
+    <div class="card-col-md-6">
       {% for image in images %}
   <div class="card" data-toggle="modal" data-target="#mymodel{{image.id}}">
     <img src="{{image.image.url }}" alt="{{image.name}}" class="card-img" height="500px">
+  </div>
   </div>
   
   <!-- Modal -->
