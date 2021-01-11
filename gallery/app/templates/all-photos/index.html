@@ -24,11 +24,14 @@
             {% for image in images %}
 
             <!--Display all images  -->
+            
             <div class="col-md-4" data-toggle="modal" data-target="#{{image.id}}">
-                <div class="card card2">
-                    <img src="{{image.image.url}}" alt="{{image.name}}" class="card-img" weight="100px">
+                <div class="card ">
+                    <img src="{{image.image.url}}" alt="{{image.name}}" class="card-img"width="500px">
+                   
                 </div>
             </div>
+            
 
 
             <div class="modal fade " id="{{image.id}}" tabindex="-1" role="dialog"
@@ -42,7 +45,7 @@
                             </button>
                         </div>
                         <div class="modal-body card3">
-                            <img src="{{image.image.url}}" alt="{{image.name}}" class="img-fluid">
+                            <img src="{{image.image.url}}" alt="{{image.name}}" class="img-fluid" width="200px">
                             <p class="text-center">{{image.description}}</p>
                             <p class="image-location">Location ~ {{image.location}}</p>
                             <p class="image-location">Category ~ {{image.category}}</p>
