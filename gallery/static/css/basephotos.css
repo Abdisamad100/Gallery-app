@@ -12,5 +12,16 @@
 footer{
   background-color:aliceblue;
 }
+.card2>img {
+  height: 250px;
+  width: 18em;
+}
+.card3>img {
+  height: 400px;
+  width: 40em;
+}
+body{
+  background-color: aliceblue;
+}
 
 
