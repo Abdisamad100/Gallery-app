@@ -63,13 +63,12 @@ Now Migrate
   
 ## Technology used  
   
-* [Python3.6]
-* [Django 1.11]
-* [Heroku]
+* Python3.6
+* Django 1.11
+* Heroku
   
   
-## Known Bugs  
-* There are no known bugs currently but pull requests are allowed incase you spot a bug  
+
   
 ## Author  
 Abdisamad Mohamed
