@@ -1,4 +1,4 @@
-#!/home/moringa/Desktop/gallery-app/virtual/bin/python
+#!/home/moringa/Documents/Gallery-app/virtual/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
